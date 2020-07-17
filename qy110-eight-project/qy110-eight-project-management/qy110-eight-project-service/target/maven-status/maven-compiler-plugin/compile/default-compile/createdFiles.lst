@@ -1,0 +1,8 @@
+com\aaa\springcloud\service\TDeptService.class
+com\aaa\springcloud\service\TmnService.class
+com\aaa\springcloud\base\BaseService.class
+com\aaa\springcloud\service\UploadService.class
+com\aaa\springcloud\redis\RedisService.class
+com\aaa\springcloud\service\LoginService.class
+com\aaa\springcloud\service\LoginLogService.class
+com\aaa\springcloud\service\TDictService.class

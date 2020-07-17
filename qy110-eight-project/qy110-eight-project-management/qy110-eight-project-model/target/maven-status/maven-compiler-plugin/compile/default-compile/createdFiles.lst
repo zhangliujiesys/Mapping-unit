@@ -1,0 +1,6 @@
+com\aaa\springcloud\model\LoginLog.class
+com\aaa\springcloud\model\TDept.class
+com\aaa\springcloud\vo\TokenVo.class
+com\aaa\springcloud\model\User.class
+com\aaa\springcloud\model\Tmn.class
+com\aaa\springcloud\model\TDict.class

@@ -1,0 +1,6 @@
+com\aaa\springcloud\Consumer8099.class
+com\aaa\springcloud\controller\TDeptController.class
+com\aaa\springcloud\controller\TDictController.class
+com\aaa\springcloud\annotation\LogAspect.class
+com\aaa\springcloud\controller\LoginController.class
+com\aaa\springcloud\controller\TmnController.class

@@ -1,0 +1,5 @@
+com\aaa\springcloud\mapper\TDictMapper.class
+com\aaa\springcloud\mapper\TDeptMapper.class
+com\aaa\springcloud\mapper\TmnMapper.class
+com\aaa\springcloud\mapper\LoginLogMapper.class
+com\aaa\springcloud\mapper\UserMapper.class
