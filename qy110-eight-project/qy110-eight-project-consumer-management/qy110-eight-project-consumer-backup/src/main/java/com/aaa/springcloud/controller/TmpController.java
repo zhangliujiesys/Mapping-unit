@@ -58,4 +58,11 @@ public class TmpController {
     public ResultData selectOneTmp(@RequestBody Tmp tmp){
         return tmpService.selectOneTmp(tmp);
     }
+    /**
+     * 根据类型进行查询
+     */
+    @GetMapping("/getListByPage")
+    public ResultData getListByPage( Map map, @RequestParam("pageNo") int pageNo, @RequestParam("pageSize") int pageSize){
+        return tmpService.getListByType(map,pageNo,pageSize);
+    }
 }

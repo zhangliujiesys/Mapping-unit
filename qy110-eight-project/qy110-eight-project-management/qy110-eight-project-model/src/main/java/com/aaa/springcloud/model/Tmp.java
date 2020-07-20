@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 @Data
@@ -13,7 +14,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Accessors(chain = true)
 @Table(name = "t_mapping_project")
-public class Tmp {
+public class Tmp implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

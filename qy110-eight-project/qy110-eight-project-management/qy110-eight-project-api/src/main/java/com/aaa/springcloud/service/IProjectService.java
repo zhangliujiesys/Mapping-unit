@@ -139,5 +139,10 @@ public interface IProjectService {
      */
     @PostMapping("/selectOneTmp")
     public ResultData selectOneTmp(@RequestBody Tmp tmp);
+    /**
+     * 根据类型进行查询
+     */
+    @GetMapping("/getListByPage")
+    public ResultData getListByType( Map map, @RequestParam("pageNo") int pageNo, @RequestParam("pageSize") int pageSize);
 
 }

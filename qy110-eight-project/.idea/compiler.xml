@@ -10,14 +10,14 @@
         <module name="qy110-eight-project-config" />
         <module name="qy110-eight-project-api" />
         <module name="qy110-eight-project-mapper" />
-        <module name="qy110-eight-project-eureka-6081" />
+        <module name="qy110-eight-project-provider-backup" />
         <module name="qy110-eight-project-common" />
+        <module name="qy110-eight-project-eureka-6081" />
         <module name="qy110-eight-project-zuul" />
-        <module name="qy110-eight-project-model" />
         <module name="qy110-eight-project-eureka-6083" />
         <module name="qy110-eight-project-eureka-6082" />
         <module name="qy110-eight-project-service" />
-        <module name="qy110-eight-project-provider-backup" />
+        <module name="qy110-eight-project-model" />
         <module name="qy110-eight-project-consumer-backup" />
       </profile>
     </annotationProcessing>

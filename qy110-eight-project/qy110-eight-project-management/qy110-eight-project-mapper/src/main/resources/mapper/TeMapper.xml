@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aaa.springcloud.mapper.TeMapper" >
+  <resultMap id="BaseResultMap" type="com.aaa.springcloud.model.Te" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="brand" property="brand" jdbcType="VARCHAR" />
+    <result column="production_id" property="production_id" jdbcType="VARCHAR" />
+    <result column="number" property="number" jdbcType="INTEGER" />
+    <result column="check_date" property="check_date" jdbcType="DATE" />
+    <result column="effective_date" property="effective_date" jdbcType="DATE" />
+    <result column="invoice_code" property="invoice_code" jdbcType="VARCHAR" />
+    <result column="check_department" property="check_department" jdbcType="VARCHAR" />
+    <result column="check_certificate_id" property="check_certificate_id" jdbcType="VARCHAR" />
+    <result column="identified" property="identified" jdbcType="VARCHAR" />
+    <result column="user_id" property="user_id" jdbcType="BIGINT" />
+    <result column="create_time" property="create_time" jdbcType="DATE" />
+    <result column="modify_time" property="modify_time" jdbcType="DATE" />
+  </resultMap>
+</mapper>

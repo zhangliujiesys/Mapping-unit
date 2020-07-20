@@ -78,7 +78,7 @@ public class TmpController extends CommonController {
      * 根据类型进行查询
      */
     @GetMapping("/getListByPage")
-    public ResultData getListByPage(@RequestBody Map map, @RequestParam("pageNo") int pageNo, @RequestParam("pageSize") int pageSize){
+    public ResultData getListByType( Map map, @RequestParam("pageNo") int pageNo, @RequestParam("pageSize") int pageSize){
         return super.getListByPage(map,pageNo,pageSize);
     }
 
