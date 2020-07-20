@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aaa.springcloud.mapper.CheckPersonMapper" >
+   <select id="selectOne" resultType="com.aaa.springcloud.vo.CheckPerson">
+      select tp.id,tp.name,tmn.unit_name,tp.duty,tmn.contact_way from t_mapping_unit tmn inner join t_principal tp on tmn.corporation=tp.name where tp.id=#{id}
+   </select>
+
+   <select id="selectAll" resultType="com.aaa.springcloud.vo.CheckPerson">
+       select tp.id,tp.name,tmn.unit_name,tp.duty,tmn.contact_way from t_mapping_unit tmn inner join t_principal tp on tmn.corporation=tp.name
+   </select>
+
+   <update id="updateOneP">
+       update t_principal set duty=#{duty} where name=#{name}
+   </update>
+    <update id="updateOneM">
+        update t_mapping_unit set contact_way=#{contact_way},unit_name=#{unit_name}where corporation=#{corporation}
+    </update>
+    <insert id="insertOneP">
+        insert into t_principal(name,duty) values (#{name},#{duty})
+    </insert>
+    <insert id="insertOneM">
+        insert into t_mapping_unit(unit_name,corporation,contact_way) values (#{unit_name},#{corporation},#{contact_way})
+    </insert>
+    <delete id="deleteOneP">
+        delete from t_principal where name=#{name}
+    </delete>
+    <delete id="deleteOneM">
+        delete from t_mapping_unit where corporation=#{corporation}
+    </delete>
+</mapper>

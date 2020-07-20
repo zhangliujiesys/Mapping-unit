@@ -1,115 +1,549 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d4755f5-29cd-46fe-96e7-dcb4ad8b4ea3" name="Default Changelist" comment="" />
+    <list default="true" id="1de9f6c0-f054-45be-a27e-2ffece147e1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/java/com/aaa/springcloud/mapper/CheckPersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/java/com/aaa/springcloud/mapper/TauditMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/java/com/aaa/springcloud/mapper/TscoreMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/resources/mapper/CheckPersonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/resources/mapper/TauditMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/resources/mapper/TscoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/qy110-eight-project-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/src/main/java/com/aaa/springcloud/model/Taudit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/src/main/java/com/aaa/springcloud/model/Tscore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/src/main/java/com/aaa/springcloud/vo/CheckPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/src/main/java/com/aaa/springcloud/service/CheckPersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/src/main/java/com/aaa/springcloud/service/TauditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/src/main/java/com/aaa/springcloud/service/TscoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/CheckPersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/TauditController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/TscoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/annotation/LoginAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/annotation/LoginAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/base/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/base/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/base/ResultData.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/base/ResultData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/staticproperties/OrderStatic.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/staticproperties/OrderStatic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/staticproperties/RedisProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/staticproperties/RedisProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/staticproperties/TimeForatProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/staticproperties/TimeForatProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/status/LoginStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/status/LoginStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/status/OperationStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/status/OperationStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/AddressUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/AddressUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/DateUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/FileNameUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/FileNameUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/IPUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/IPUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/JSONUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/JSONUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/Map2BeanUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/Map2BeanUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/SpringContextUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/SpringContextUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-common/target/classes/com/aaa/springcloud/utils/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-config/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-config/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-config/target/classes/com/aaa/springcloud/config/RedisClusterConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-config/target/classes/com/aaa/springcloud/config/RedisClusterConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-config/target/classes/com/aaa/springcloud/properties/FtpProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-config/target/classes/com/aaa/springcloud/properties/FtpProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-config/target/classes/com/aaa/springcloud/properties/RedisClusterProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-config/target/classes/com/aaa/springcloud/properties/RedisClusterProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-config/target/classes/com/aaa/springcloud/utils/FtpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-config/target/classes/com/aaa/springcloud/utils/FtpUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6081/target/classes/com/aaa/springcloud/EurekaServer6081.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6081/target/classes/com/aaa/springcloud/EurekaServer6081.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/LoginLogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/LoginLogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TDeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TDeptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TDictMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TDictMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TmnMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TmnMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TmpMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TmpMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TnMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TnMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TpMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TpMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TspMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TspMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TtMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/TtMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/classes/com/aaa/springcloud/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/LoginLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/LoginLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/TDept.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/TDept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/TDict.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/TDict.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Te.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Te.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tmn.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tmn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tmp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tn.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tp.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tt.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/Tt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/vo/TokenVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/classes/com/aaa/springcloud/vo/TokenVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/base/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/base/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/redis/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/redis/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/LoginLogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/LoginLogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TDeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TDeptService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TDictService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TDictService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TmnService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TmnService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TmpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TmpService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TnService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TnService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TpService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TspService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TspService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/TtService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/UploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/classes/com/aaa/springcloud/service/UploadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/ApplicationRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/ApplicationRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/base/CommonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/base/CommonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/LoginLogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/LoginLogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TDeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TDeptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TDictController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TDictController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TmnController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TmnController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TmpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TnController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TnController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TspController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TspController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TtController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/com/aaa/springcloud/controller/TtController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/classes/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qy110-eight-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qy110-eight-project.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6082/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-eureka-management/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-consumer-management/qy110-eight-project-consumer-backup/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-consumer-management/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-management/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-provider-management/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6083/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-config/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-api/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-common/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6081/target/" />
+    <ignored path="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/TscoreController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/java/com/aaa/springcloud/mapper/TscoreMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/resources/mapper/TscoreMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="Enum" />
-        <option value="AnnotationType" />
-        <option value="Interface" />
-        <option value="Class" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/src/main/java/com/aaa/springcloud/model/Taudit.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/java/com/aaa/springcloud/mapper/TscoreMapper.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/src/main/java/com/aaa/springcloud/service/TscoreService.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/TscoreController.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/src/main/java/com/aaa/springcloud/vo/CheckPerson.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/java/com/aaa/springcloud/mapper/CheckPersonMapper.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/src/main/java/com/aaa/springcloud/service/CheckPersonService.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/CheckPersonController.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/src/main/java/com/aaa/springcloud/service/TauditService.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/TauditController.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/java/com/aaa/springcloud/mapper/TauditMapper.java" />
+        <option value="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/resources/mapper/TauditMapper.xml" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../maven/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\java\maven\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="mavenHome" value="C:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-        <option name="jdkForImporter" value="1.8" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
   </component>
-  <component name="ProjectId" id="1eOUvksZW3qmP5RWrAkpFzzUnUf" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="292" />
+    <option name="y" value="105" />
+    <option name="width" value="692" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-6081" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-6081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-6081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-6081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-6081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-eureka-6081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-backup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-backup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-backup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-backup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-backup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-backup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-backup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qy110-eight-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qy110-eight-project" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-management" type="462c0819:PsiDirectoryNode" />
+              <item name="qy110-eight-project-provider-backup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595245893330" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="show.run.dashboard.notification" value="false" />
-  </component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.aaa.springcloud.model" />
       <recent name="com.aaa.springcloud.controller" />
       <recent name="com.aaa.springcloud.service" />
       <recent name="com.aaa.springcloud.mapper" />
-      <recent name="com.aaa.springcloud" />
+      <recent name="com.aaa.springcloud.vo" />
+      <recent name="com.aaa.springcloud.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java\老师课件\二期项目\闫胜杰\qy110-eight-project\qy110-eight-project-management\qy110-eight-project-mapper\src\main\resources\mapper" />
-      <recent name="D:\HomeWork\qy110-eight-project\qy110-eight-project-management\qy110-eight-project-mapper\src\main\resources\mapper" />
-      <recent name="D:\HomeWork\qy110-eight-project\qy110-eight-project-consumer-management\qy110-eight-project-consumer-backup\src\main\resources" />
-      <recent name="D:\HomeWork\qy110-eight-project\qy110-eight-project-eureka-management\qy110-eight-project-eureka-6083\src\main\resources" />
-      <recent name="D:\HomeWork\qy110-eight-project\qy110-eight-project-eureka-management\qy110-eight-project-eureka-6082\src\main\resources" />
+      <recent name="E:\githubcodes\Mapping-unit\qy110-eight-project\qy110-eight-project-management\qy110-eight-project-mapper\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer6081">
-    <configuration name="Unnamed" type="CompoundRunConfigurationType">
-      <toRun name="EurekaServer6083" type="SpringBootApplicationConfigurationType" />
-      <toRun name="EurekaServer6082" type="SpringBootApplicationConfigurationType" />
-      <toRun name="EurekaServer6081" type="SpringBootApplicationConfigurationType" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="CompoundRunConfigurationType">
-      <toRun name="EurekaServer6083" type="SpringBootApplicationConfigurationType" />
-      <toRun name="EurekaServer6081" type="SpringBootApplicationConfigurationType" />
-      <toRun name="Consumer8099" type="SpringBootApplicationConfigurationType" />
-      <toRun name="ApplicationRun" type="SpringBootApplicationConfigurationType" />
-      <toRun name="EurekaServer6082" type="SpringBootApplicationConfigurationType" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ApplicationRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApplicationRun">
+    <configuration name="ApplicationRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="qy110-eight-project-provider-backup" />
       <extension name="coverage">
         <pattern>
@@ -122,23 +556,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Consumer8099" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="qy110-eight-project-consumer-backup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aaa.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aaa.springcloud.Consumer8099" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServer6081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="EurekaServer6081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="qy110-eight-project-eureka-6081" />
       <extension name="coverage">
         <pattern>
@@ -151,213 +569,207 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer6082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="qy110-eight-project-eureka-6082" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aaa.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aaa.springcloud.EurekaServer6082" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServer6083" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="qy110-eight-project-eureka-6083" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aaa.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aaa.springcloud.EurekaServer6083" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Compound.Unnamed" />
-      <item itemvalue="Spring Boot.ApplicationRun" />
-      <item itemvalue="Spring Boot.Consumer8099" />
-      <item itemvalue="Spring Boot.EurekaServer6081" />
-      <item itemvalue="Spring Boot.EurekaServer6082" />
-      <item itemvalue="Spring Boot.EurekaServer6083" />
-    </list>
-  </component>
-  <component name="SpringBootOptions">
-    <option name="showAdditionalConfigNotification" value="false" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApplicationRun" />
+        <item itemvalue="Spring Boot.EurekaServer6081" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d4755f5-29cd-46fe-96e7-dcb4ad8b4ea3" name="Default Changelist" comment="" />
-      <created>1594192365953</created>
+      <changelist id="1de9f6c0-f054-45be-a27e-2ffece147e1d" name="Default Changelist" comment="" />
+      <created>1595242042851</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1594192365953</updated>
-      <workItem from="1594192368301" duration="8558000" />
-      <workItem from="1594203406367" duration="5365000" />
-      <workItem from="1594255088754" duration="19030000" />
-      <workItem from="1594362901730" duration="13753000" />
-      <workItem from="1594688967049" duration="4747000" />
-      <workItem from="1594728336197" duration="612000" />
-      <workItem from="1594772845192" duration="26731000" />
-      <workItem from="1594859327797" duration="26684000" />
-      <workItem from="1594891833721" duration="65661000" />
-      <workItem from="1595061984655" duration="2262000" />
-      <workItem from="1595205155610" duration="1323000" />
-      <workItem from="1595215007861" duration="78000" />
-      <workItem from="1595217141468" duration="1657000" />
+      <updated>1595242042851</updated>
+      <workItem from="1595242049610" duration="3796000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3796000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31382978" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.04918033" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04918033" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.7819672" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Inspections" timestamp="1594861620960">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1594861620960" />
-    <state x="564" y="80" key="#Project_Structure" timestamp="1594864396690">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="564" y="80" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1594864396690" />
-    <state x="493" y="272" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1594285469060">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="493" y="272" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.824@0.0.1536.824" timestamp="1594285469060" />
-    <state x="186" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594897960838">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="186" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1594897960838" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594886282018" />
-    <state x="752" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594812841902">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="752" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594812841902" />
-    <state x="801" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1595057726570">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="801" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1595057726570" />
-    <state x="961" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594885467594" />
-    <state x="331" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594368968760">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="331" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1594368968760" />
-    <state x="734" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594797211699">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="734" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594797211699" />
-    <state x="606" y="154" key="FileChooserDialogImpl" timestamp="1595064533628">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="606" y="154" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595064533628" />
-    <state x="727" y="187" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594823503630" />
-    <state width="1237" height="128" key="GridCell.Tab.0.bottom" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594889951002" />
-    <state width="1237" height="128" key="GridCell.Tab.0.center" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594889951001" />
-    <state width="1237" height="128" key="GridCell.Tab.0.left" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594889951001" />
-    <state width="1237" height="128" key="GridCell.Tab.0.right" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594889951001" />
-    <state width="1237" height="128" key="GridCell.Tab.1.bottom" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="233" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594889951002" />
-    <state width="1237" height="128" key="GridCell.Tab.1.center" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="233" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594889951002" />
-    <state width="1237" height="128" key="GridCell.Tab.1.left" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="233" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594889951002" />
-    <state width="1237" height="128" key="GridCell.Tab.1.right" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="233" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594889951002" />
-    <state width="1237" height="128" key="GridCell.Tab.2.bottom" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="319" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594884296248" />
-    <state width="1237" height="128" key="GridCell.Tab.2.center" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="319" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1594884296247" />
-    <state width="1237" height="128" key="GridCell.Tab.2.left" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="319" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1594884296247" />
-    <state width="1237" height="128" key="GridCell.Tab.2.right" timestamp="1595061773633">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="128" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1595061773633" />
-    <state width="1493" height="319" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1594884296248" />
-    <state x="232" y="0" key="SettingsEditor" timestamp="1594897409068">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="232" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1594897409068" />
-    <state x="278" y="61" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594798276370" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1595061993680">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1595061993680" />
-    <state x="405" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594800417833">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="405" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1594800417833" />
-    <state x="721" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594365594555">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="721" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1594365594555" />
-    <state x="18" y="40" width="892" height="699" key="dock-window-1" timestamp="1594881755788">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="18" y="40" width="892" height="699" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1594881755788" />
-    <state x="161" y="0" width="1111" height="699" key="dock-window-2" timestamp="1594881996095">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="161" y="0" width="1111" height="699" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1594881996095" />
-    <state x="0" y="0" width="892" height="699" maximized="true" key="dock-window-3" timestamp="1594884152634">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="0" y="0" width="892" height="699" maximized="true" key="dock-window-3/0.0.1536.824@0.0.1536.824" timestamp="1594884152634" />
-    <state x="-55" y="66" width="782" height="699" key="dock-window-4" timestamp="1594888626047">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="-55" y="66" width="782" height="699" key="dock-window-4/0.0.1536.824@0.0.1536.824" timestamp="1594888626047" />
-    <state x="356" y="127" key="new project wizard" timestamp="1594796532387">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="356" y="127" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594796532387" />
-    <state x="574" y="253" key="run.anything.popup" timestamp="1594804678768">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="253" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594804678768" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/TauditController.java</url>
+          <line>26</line>
+          <properties class="com.aaa.springcloud.controller.TauditController" method="selectAllByIdTaudit">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/src/main/java/com/aaa/springcloud/model/Tscore.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/src/main/java/com/aaa/springcloud/model/Taudit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/src/main/java/com/aaa/springcloud/service/TscoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/src/main/java/com/aaa/springcloud/vo/CheckPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/java/com/aaa/springcloud/mapper/CheckPersonMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6081/src/main/java/com/aaa/springcloud/EurekaServer6081.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/src/main/java/com/aaa/springcloud/service/CheckPersonService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/ApplicationRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/TauditController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/src/main/java/com/aaa/springcloud/service/TauditService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/resources/mapper/TauditMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/CheckPersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/resources/mapper/CheckPersonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/java/com/aaa/springcloud/mapper/TauditMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/java/com/aaa/springcloud/mapper/TscoreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/src/main/resources/mapper/TscoreMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/src/main/java/com/aaa/springcloud/controller/TscoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -2,24 +2,42 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="qy110-eight-project-config" />
         <module name="qy110-eight-project-api" />
-        <module name="qy110-eight-project-mapper" />
-        <module name="qy110-eight-project-provider-backup" />
         <module name="qy110-eight-project-common" />
-        <module name="qy110-eight-project-eureka-6081" />
-        <module name="qy110-eight-project-zuul" />
-        <module name="qy110-eight-project-eureka-6083" />
-        <module name="qy110-eight-project-eureka-6082" />
-        <module name="qy110-eight-project-service" />
-        <module name="qy110-eight-project-model" />
+        <module name="qy110-eight-project-config" />
         <module name="qy110-eight-project-consumer-backup" />
+        <module name="qy110-eight-project-eureka-6081" />
+        <module name="qy110-eight-project-eureka-6082" />
+        <module name="qy110-eight-project-eureka-6083" />
+        <module name="qy110-eight-project-mapper" />
+        <module name="qy110-eight-project-model" />
+        <module name="qy110-eight-project-provider-backup" />
+        <module name="qy110-eight-project-service" />
+        <module name="qy110-eight-project-zuul" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qy110-eight-project" target="1.5" />
+      <module name="qy110-eight-project-api" target="1.5" />
+      <module name="qy110-eight-project-common" target="1.5" />
+      <module name="qy110-eight-project-config" target="1.5" />
+      <module name="qy110-eight-project-consumer-backup" target="1.5" />
+      <module name="qy110-eight-project-consumer-management" target="1.5" />
+      <module name="qy110-eight-project-eureka-6081" target="1.5" />
+      <module name="qy110-eight-project-eureka-6082" target="1.5" />
+      <module name="qy110-eight-project-eureka-6083" target="1.5" />
+      <module name="qy110-eight-project-eureka-management" target="1.5" />
+      <module name="qy110-eight-project-management" target="1.5" />
+      <module name="qy110-eight-project-mapper" target="1.5" />
+      <module name="qy110-eight-project-model" target="1.5" />
+      <module name="qy110-eight-project-provider-backup" target="1.5" />
+      <module name="qy110-eight-project-provider-management" target="1.5" />
+      <module name="qy110-eight-project-service" target="1.5" />
+      <module name="qy110-eight-project-zuul" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project.iml" filepath="$PROJECT_DIR$/qy110-eight-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-api/qy110-eight-project-api.iml" filepath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-api/qy110-eight-project-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-common/qy110-eight-project-common.iml" filepath="$PROJECT_DIR$/qy110-eight-project-common/qy110-eight-project-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-config/qy110-eight-project-config.iml" filepath="$PROJECT_DIR$/qy110-eight-project-config/qy110-eight-project-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-consumer-management/qy110-eight-project-consumer-backup/qy110-eight-project-consumer-backup.iml" filepath="$PROJECT_DIR$/qy110-eight-project-consumer-management/qy110-eight-project-consumer-backup/qy110-eight-project-consumer-backup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-consumer-management/qy110-eight-project-consumer-management.iml" filepath="$PROJECT_DIR$/qy110-eight-project-consumer-management/qy110-eight-project-consumer-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6081/qy110-eight-project-eureka-6081.iml" filepath="$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6081/qy110-eight-project-eureka-6081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6082/qy110-eight-project-eureka-6082.iml" filepath="$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6082/qy110-eight-project-eureka-6082.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6083/qy110-eight-project-eureka-6083.iml" filepath="$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-6083/qy110-eight-project-eureka-6083.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-management.iml" filepath="$PROJECT_DIR$/qy110-eight-project-eureka-management/qy110-eight-project-eureka-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-management.iml" filepath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/qy110-eight-project-mapper.iml" filepath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-mapper/qy110-eight-project-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/qy110-eight-project-model.iml" filepath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-model/qy110-eight-project-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/qy110-eight-project-provider-backup.iml" filepath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-backup/qy110-eight-project-provider-backup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-management.iml" filepath="$PROJECT_DIR$/qy110-eight-project-provider-management/qy110-eight-project-provider-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/qy110-eight-project-service.iml" filepath="$PROJECT_DIR$/qy110-eight-project-management/qy110-eight-project-service/qy110-eight-project-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qy110-eight-project-zuul/qy110-eight-project-zuul.iml" filepath="$PROJECT_DIR$/qy110-eight-project-zuul/qy110-eight-project-zuul.iml" />
+    </modules>
+  </component>
+</project>

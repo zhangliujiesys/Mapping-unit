@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aaa.springcloud.mapper.TscoreMapper" >
+    <select id="selectAllTscore" resultType="com.aaa.springcloud.model.Tscore">
+       select * from t_score where t_score.unit_id=#{unit_id}
+    </select>
+    <insert id="addTscore">
+        insert into t_score(score_plus,score_subtract,score,unit_id,reason,create_time,modify_time)values(#{score_plus},#{score_subtract},#{score},#{unit_id},#{reason},#{create_time},#{modify_time})
+    </insert>
+</mapper>
